@@ -15,7 +15,7 @@
 ![file-nesting-setup-step-1](../Images/file-nesting-setup-step-1.png)
 
 И объявим паттерн, по которому мы хотим что-то группировать:
-![file-nesting-setup-step-2](file-nesting-setup-step-2.png)
+![file-nesting-setup-step-2](../Images/file-nesting-setup-step-2.png)
 
 В результате такой конфигурации, файлы `CHANGELOG.md` и `LICENSE.md` в проводнике VSCode станут отображаться как вложенные в `README.md`. 
 
