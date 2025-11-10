@@ -19,5 +19,5 @@
 
 В результате такой конфигурации, файлы `CHANGELOG.md` и `LICENSE.md` в проводнике VSCode станут отображаться как вложенные в `README.md`. 
 
-Результат будет выглядеть следующим образом:
+Выглядеть это будет следующим образом:
 ![after-file-nesting-example-opened-file](../Images/after-file-nesting-example-opened-file.png)
