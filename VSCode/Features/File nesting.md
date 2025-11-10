@@ -3,7 +3,7 @@
 Избавиться от этих файлов в дереве можно, разбив их не тематические группы.
 
 Рассмотрим дерево фронтового проекта:
-![[before-file-nesting-example.png]]
+![before-file-nesting-example.png](../Images/before-file-nesting-example.png)
 
 Видим, что различных файлов, например каких-то конфигов, MD, артефактов сборки и т.п. достаточно много, чтобы они могли занимать целый экран!
 
@@ -12,13 +12,13 @@
 Посмотрим на то, как это работает на примере группировки MD файлов.
 Включим fileNesting в конфиге VSCode:
 
-![[file-nesting-setup-step-1.png]]
+![file-nesting-setup-step-1](../Images/file-nesting-setup-step-1.png)
 
 И объявим паттерн, по которому мы хотим что-то группировать:
-![[file-nesting-setup-step-2.png]]
+![file-nesting-setup-step-2](file-nesting-setup-step-2.png)
 
 В результате такой конфигурации, файлы `CHANGELOG.md` и `LICENSE.md` в проводнике VSCode станут отображаться как вложенные в `README.md`. 
 
 Выглядеть будет это следующим образом:
-![[after-file-nesting-example-closed-file.png]]
-![[after-file-nesting-example-opened-file.png]]
+![after-file-nesting-example-closed-file](../Images/after-file-nesting-example-closed-file.png)
+![after-file-nesting-example-opened-file](../Images/after-file-nesting-example-opened-file.png)
